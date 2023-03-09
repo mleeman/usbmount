@@ -5,6 +5,7 @@ Standards-Version: 3.9.2
 Build-Depends:
  debhelper (>= 9)
 Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Uploaders: Marc Leeman <m.leeman@televic.com>,
 Vcs-Browser: https://anonscm.debian.org/cgit/usbmount/usbmount.git
 Vcs-Git: git://anonscm.debian.org/usbmount/usbmount.git
 Homepage: http://github.com/rbrito/usbmount
