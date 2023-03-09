@@ -1,3 +1,25 @@
+usbmount (0.0.24~televic11+1) bullseye-televic-unstable; urgency=medium
+
+  [ Mathieu Letendre-Jauniaux ]
+  * Remove systemd udev override.
+  * Included systemd template in the build. Fixed env.
+  * Simplify service template by querying udev in usbmount.
+
+  [ Romain Reignier ]
+  * Fix table layout in README
+
+  [ Mathieu Letendre-Jauniaux ]
+  * Tolerate quoted UUID syntax in /etc/fstab.
+  * Add a note about generic debian package dependencies.
+
+  [ Marc Leeman ]
+  * d/control: add Marc Leeman to Uploaders
+  * priority-extra-is-replaced-by-priority-optional
+  * vcs-obsolete-in-debian-infrastructure
+  * package-uses-deprecated-debhelper-compat-version
+
+ -- Marc Leeman <m.leeman@televic.com>  Thu, 09 Mar 2023 10:25:46 +0100
+
 usbmount (0.0.24) unstable; urgency=medium
 
   * Use systemd to manage [dis]mounting (based on https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774149#177)
